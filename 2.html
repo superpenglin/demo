@@ -1,0 +1,33 @@
+<html>
+<head>
+    <style>
+        html,body{margin:0px;text-align:center;}
+        .main{width:1000px;margin:0px auto;padding-top:30px;}
+        .title{font-size:18px;text-decoration:underline;font-weight:bold;}
+        .formtable{width:100%;font-size:12px;margin-top:20px;}
+        .lefttd{width:350px;text-align:right;}
+        .righttd{text-align:left;}
+        .etxt{width:300px;}
+        .etel{width:200px;}
+        .eta{width:320px;height:100px;}
+        .cinpt{text-align:center;padding-top:20px;}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div><span class="title">注册账号</span></div>
+        <div>
+            <table class="formtable">
+                <tr><td class="lefttd">姓名：</td><td class="righttd"><input type="text" /></td></tr>
+                <tr><td class="lefttd">E-mail：</td><td class="righttd"><input type="text" class="etxt" /></td></tr>
+                <tr><td class="lefttd">电话：</td><td class="righttd"><input type="text" class="etel" /></td></tr>
+                <tr><td class="lefttd">性别：</td><td class="righttd"><input type="radio" checked="checked" name="rd" />女 <input type="radio" checked="checked" name="rd" />男</td></tr>
+                <tr><td class="lefttd">年龄：</td><td class="righttd"><select><option>20以下</option><option>20以上</option></select></td></tr>
+                <tr><td class="lefttd">留言板：</td><td class="righttd"><textarea class="eta"></textarea></td></tr>
+                <tr><td class="lefttd">您的爱好：</td><td class="righttd"><input type="checkbox" name="cb1" />运动 <input type="checkbox" name="cb2" />阅读 <input type="checkbox" name="cb2" />听音乐 <input type="checkbox" name="cb2" />旅游</td></tr>
+                <tr><td colspan="2" class="cinpt"><input type="button" value="提交" /></td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
